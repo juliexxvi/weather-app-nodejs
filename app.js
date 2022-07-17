@@ -53,6 +53,8 @@ if (!location) {
         return console.log(error);
       }
       console.log(data.location);
+      // console.log(data.latitude);
+      // console.log(data.longitude);
       console.log(forecastData);
     });
   });
